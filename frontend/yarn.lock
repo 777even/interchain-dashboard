@@ -1507,10 +1507,10 @@
     axios "^0.27.2"
     long "^4.0.0"
 
-"@keplr-wallet/types@^0.12.39":
-  version "0.12.63"
-  resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.63.tgz#684b018d0b9fd9f9eee79eb530f2306dfc9dedfc"
-  integrity sha512-pN1+cVi5tjIjFjRS2jqUS2eoAHIApACGpJlXkrrzfQyxa6qO5W7B2sqQ9XGzpCoWl70VzpGm0Xlsj3lbBcaTKw==
+"@keplr-wallet/types@^0.12.132":
+  version "0.12.132"
+  resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.132.tgz#c0464579cabc05655f7013fcb7b882e57409a22c"
+  integrity sha512-jRz6e6ujP5EeMPUo5pMRjyK7ILwKqDL50G9e0hwJKxMULQZ6KeWdpIKpp3MwMg+GBF9FA9IzCq53DJzJm4fJCg==
   dependencies:
     long "^4.0.0"
 
@@ -2399,7 +2399,7 @@ axe-core@=4.7.0:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.7.0.tgz#34ba5a48a8b564f67e103f0aa5768d76e15bbbbf"
   integrity sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==
 
-axios@1.x:
+axios@1.x, axios@^1.5.1, axios@^1.6.0:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.7.tgz#7b48c2e27c96f9c68a2f8f31e2ab19f59b06b0a7"
   integrity sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==
@@ -2422,15 +2422,6 @@ axios@^0.27.2:
   dependencies:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
-
-axios@^1.5.1, axios@^1.6.0:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.5.tgz#2c090da14aeeab3770ad30c3a1461bc970fb0cd8"
-  integrity sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==
-  dependencies:
-    follow-redirects "^1.15.4"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
 
 axobject-query@^3.2.1:
   version "3.2.1"
