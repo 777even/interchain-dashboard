@@ -98,12 +98,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@chain-registry/types@^0.18.0", "@chain-registry/types@^0.18.1":
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.18.1.tgz#bd926ddf204f2ae986a79b42f0cfe85764e2977a"
-  integrity sha512-H/UnOyd7WdcWHa2FGKxy4MclDDFrbE2rFwaUh9oubNJOey7UBI4dNF10oZIWM/1by15LUgDz45fVbh6uA6W5Tg==
-  dependencies:
-    "@babel/runtime" "^7.21.0"
+"@chain-registry/types@^0.50.50":
+  version "0.50.50"
+  resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.50.50.tgz#f5f08bcf4d167e971105ec5962188e2b0a3b4541"
+  integrity sha512-H+sGuL8HTr0iFO4PJlBC9MLfrFR+NsD6sFSoFh2+4+obBCVuc3tp5tz/CSfLy04tIySgLlbmqMxkMNkgv1ZpXg==
 
 "@confio/ics23@^0.6.8":
   version "0.6.8"
@@ -2644,21 +2642,12 @@ cfb@~1.2.1:
     adler-32 "~1.3.0"
     crc-32 "~1.2.0"
 
-chain-registry@1.28.1:
-  version "1.28.1"
-  resolved "https://registry.yarnpkg.com/chain-registry/-/chain-registry-1.28.1.tgz#3aa6fd1199e06e1e95fe6a53b55076962effb980"
-  integrity sha512-WYFhulujAss5llO75CAoLVbMs+EmiYH6N/+XAtV2xBCI0V8eI2yBxHI93w9YsagizE8Ew9wCuNZk8QdAXPNHtg==
+chain-registry@1.69.94, chain-registry@^1.27.0:
+  version "1.69.94"
+  resolved "https://registry.yarnpkg.com/chain-registry/-/chain-registry-1.69.94.tgz#4f3769e9a2f763d6dba00a4ee748ce0ca3d7cf2a"
+  integrity sha512-8WpEM0BRtvhe6MBek0Jx41xaNH8E3I76yqebr0q5RohIs+Rmjt+aCzmi9T8AOceyJw7cOzIBhJjD1pi2agfd1w==
   dependencies:
-    "@babel/runtime" "^7.21.0"
-    "@chain-registry/types" "^0.18.0"
-
-chain-registry@^1.27.0:
-  version "1.28.7"
-  resolved "https://registry.yarnpkg.com/chain-registry/-/chain-registry-1.28.7.tgz#c4efa2a3a10e71c45166a6f03d58593683d08d02"
-  integrity sha512-XsLGriPOonROPOD069KkZEuORw4ngJf2ntME4dbuavh4B3asYwXWK4oak0kGR2fQC2GI0vnBuWNs4dEGuH5njA==
-  dependencies:
-    "@babel/runtime" "^7.21.0"
-    "@chain-registry/types" "^0.18.1"
+    "@chain-registry/types" "^0.50.50"
 
 chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
